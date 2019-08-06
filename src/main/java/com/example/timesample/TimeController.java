@@ -23,7 +23,7 @@ public class TimeController {
         Map<String,Object> response = new HashMap<>();
         response.put("milliseconds", now);
         response.put("date", date.toString());
-        response.put("foo","bar");
+        response.put("foo","comcast");
 
         return response;
     }
